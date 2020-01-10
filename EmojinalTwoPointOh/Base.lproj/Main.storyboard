@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +12,173 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="EmojinalTwoPointOh" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QsX-C6-UOb">
+                                <rect key="frame" x="94" y="107" width="52" height="70"/>
+                                <accessibility key="accessibilityConfiguration" label="hi"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="52" id="NhT-Wg-Ybe"/>
+                                    <constraint firstAttribute="height" constant="70" id="g7Q-ov-CTF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <state key="normal" title="♈️"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jgf-5z-m7r">
+                                <rect key="frame" x="237" y="107" width="52" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="52" id="Wm2-r1-z42"/>
+                                    <constraint firstAttribute="height" constant="70" id="qtq-GB-zgb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <state key="normal" title="♉️"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EWz-8g-V6T">
+                                <rect key="frame" x="94" y="185" width="52" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="52" id="7GL-wW-LId"/>
+                                    <constraint firstAttribute="height" constant="70" id="ZKy-Og-EJx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <state key="normal" title="♊️"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o54-8a-lNL">
+                                <rect key="frame" x="237" y="185" width="52" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="0U9-pu-pxd"/>
+                                    <constraint firstAttribute="width" constant="52" id="CqQ-Gu-an9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <state key="normal" title="♋️"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qQk-1p-4g2">
+                                <rect key="frame" x="94" y="263" width="52" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="U9W-GP-yPK"/>
+                                    <constraint firstAttribute="width" constant="52" id="odZ-EZ-JSe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <state key="normal" title="♌️"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aa1-DK-aaL">
+                                <rect key="frame" x="237" y="263" width="52" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="52" id="RyM-WU-9KJ"/>
+                                    <constraint firstAttribute="height" constant="70" id="Zh9-Ja-BRF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <state key="normal" title="♍️"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B56-wr-lec">
+                                <rect key="frame" x="94" y="341" width="52" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="NHb-xb-jSb"/>
+                                    <constraint firstAttribute="width" constant="52" id="YC3-sQ-dkB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <state key="normal" title="♎️"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zFO-jN-6eW">
+                                <rect key="frame" x="237" y="341" width="52" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="52" id="lDZ-Eq-Rac"/>
+                                    <constraint firstAttribute="height" constant="70" id="okg-Dk-IxC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <state key="normal" title="♏️"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BPk-gl-zgq">
+                                <rect key="frame" x="94" y="419" width="52" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="WKy-Eq-AQ0"/>
+                                    <constraint firstAttribute="width" constant="52" id="maZ-51-389"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <state key="normal" title="♐️"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vxd-26-fX1">
+                                <rect key="frame" x="237" y="419" width="52" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="DBz-Bs-gAz"/>
+                                    <constraint firstAttribute="width" constant="52" id="qub-4g-ZHX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <state key="normal" title="♑️"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KTN-0v-WxY">
+                                <rect key="frame" x="94" y="497" width="52" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="3HF-4k-oNy"/>
+                                    <constraint firstAttribute="width" constant="52" id="PFy-RV-SJ7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <state key="normal" title="♒️"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YlQ-Rc-zxf">
+                                <rect key="frame" x="237" y="497" width="52" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="52" id="pNi-pS-KYM"/>
+                                    <constraint firstAttribute="height" constant="70" id="uBL-zy-UFZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <state key="normal" title="♓️"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Daily Horoscope" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3nt-wh-U1l">
+                                <rect key="frame" x="91" y="49" width="192" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="192" id="2T9-Q6-5Fm"/>
+                                    <constraint firstAttribute="height" constant="33" id="BMY-o7-jcP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="o54-8a-lNL" firstAttribute="top" secondItem="jgf-5z-m7r" secondAttribute="bottom" constant="8" id="2Cx-kK-fxa"/>
+                            <constraint firstItem="zFO-jN-6eW" firstAttribute="top" secondItem="aa1-DK-aaL" secondAttribute="bottom" constant="8" id="2hF-ab-i30"/>
+                            <constraint firstItem="zFO-jN-6eW" firstAttribute="leading" secondItem="B56-wr-lec" secondAttribute="trailing" constant="91" id="3BD-ZY-1wV"/>
+                            <constraint firstItem="QsX-C6-UOb" firstAttribute="top" secondItem="3nt-wh-U1l" secondAttribute="bottom" constant="25" id="4kj-fd-CfO"/>
+                            <constraint firstItem="qQk-1p-4g2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="94" id="7Oe-9E-pF6"/>
+                            <constraint firstItem="qQk-1p-4g2" firstAttribute="top" secondItem="EWz-8g-V6T" secondAttribute="bottom" constant="8" id="B88-3z-N1h"/>
+                            <constraint firstItem="KTN-0v-WxY" firstAttribute="top" secondItem="BPk-gl-zgq" secondAttribute="bottom" constant="8" id="HXJ-Iu-roV"/>
+                            <constraint firstItem="aa1-DK-aaL" firstAttribute="top" secondItem="o54-8a-lNL" secondAttribute="bottom" constant="8" id="HqU-a7-Ktp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="KTN-0v-WxY" secondAttribute="bottom" constant="100" id="Kx0-yb-m9H"/>
+                            <constraint firstItem="B56-wr-lec" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="94" id="PXv-ay-Teb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="o54-8a-lNL" secondAttribute="trailing" constant="86" id="SWF-Yy-f3R"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="YlQ-Rc-zxf" secondAttribute="bottom" constant="100" id="TGC-Dm-FHC"/>
+                            <constraint firstItem="o54-8a-lNL" firstAttribute="leading" secondItem="EWz-8g-V6T" secondAttribute="trailing" constant="91" id="Wze-zS-AJ9"/>
+                            <constraint firstItem="Vxd-26-fX1" firstAttribute="leading" secondItem="BPk-gl-zgq" secondAttribute="trailing" constant="91" id="YHk-DM-F6O"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aa1-DK-aaL" secondAttribute="trailing" constant="86" id="Zc5-wV-NGr"/>
+                            <constraint firstItem="3nt-wh-U1l" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="29" id="aNx-X6-8G8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jgf-5z-m7r" secondAttribute="trailing" constant="86" id="c6B-yH-Uqg"/>
+                            <constraint firstItem="BPk-gl-zgq" firstAttribute="top" secondItem="B56-wr-lec" secondAttribute="bottom" constant="8" id="daO-YW-8PB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zFO-jN-6eW" secondAttribute="trailing" constant="86" id="e93-WX-Weo"/>
+                            <constraint firstItem="YlQ-Rc-zxf" firstAttribute="leading" secondItem="KTN-0v-WxY" secondAttribute="trailing" constant="91" id="fqT-Qo-ScB"/>
+                            <constraint firstItem="Vxd-26-fX1" firstAttribute="top" secondItem="zFO-jN-6eW" secondAttribute="bottom" constant="8" id="giz-ms-9cr"/>
+                            <constraint firstItem="jgf-5z-m7r" firstAttribute="leading" secondItem="QsX-C6-UOb" secondAttribute="trailing" constant="91" id="gwq-cz-B0F"/>
+                            <constraint firstItem="jgf-5z-m7r" firstAttribute="top" secondItem="3nt-wh-U1l" secondAttribute="bottom" constant="25" id="lQz-d7-GS6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Vxd-26-fX1" secondAttribute="trailing" constant="86" id="lYE-c6-3Dj"/>
+                            <constraint firstItem="aa1-DK-aaL" firstAttribute="leading" secondItem="qQk-1p-4g2" secondAttribute="trailing" constant="91" id="lbS-wx-GkY"/>
+                            <constraint firstItem="QsX-C6-UOb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="94" id="n8P-oP-uOh"/>
+                            <constraint firstItem="B56-wr-lec" firstAttribute="top" secondItem="qQk-1p-4g2" secondAttribute="bottom" constant="8" id="npL-bg-fWQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YlQ-Rc-zxf" secondAttribute="trailing" constant="86" id="qqi-UA-zzS"/>
+                            <constraint firstItem="EWz-8g-V6T" firstAttribute="top" secondItem="QsX-C6-UOb" secondAttribute="bottom" constant="8" id="uMM-u2-poE"/>
+                            <constraint firstItem="YlQ-Rc-zxf" firstAttribute="top" secondItem="Vxd-26-fX1" secondAttribute="bottom" constant="8" id="uO2-QL-8L4"/>
+                            <constraint firstItem="EWz-8g-V6T" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="94" id="vv0-vi-jkP"/>
+                            <constraint firstItem="BPk-gl-zgq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="94" id="xKj-4q-YXj"/>
+                            <constraint firstItem="KTN-0v-WxY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="94" id="yPw-7F-Neo"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
     </scenes>
 </document>
